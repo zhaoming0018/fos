@@ -1,0 +1,23 @@
+	<!doctype html>
+	<html>
+	<include file='Public:a_head'/>
+	<body>
+	<div class="bgm"><include file='Public:a_top'/></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2 mt20"><include file='Public:a_navside'/></div>
+			<div class="col-xs-10 mt20">
+			
+				<block name="main">
+					{__CONTENT__}
+				</block>
+
+			<script type='text/javascript'>
+				var ue = UE.getEditor('editor');
+				var con= document.getElementByName('content');
+				con.innerHTML=ue.getContent;
+			</script>
+			</div>
+		</div><!-- end class="row" -->
+	</div>
+	</html>

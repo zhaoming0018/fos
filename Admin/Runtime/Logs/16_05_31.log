@@ -1,0 +1,37 @@
+[ 2016-05-31T06:56:43+08:00 ] 117.90.242.152 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005199s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000202s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T06:56:43+08:00 ] 117.90.242.152 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+

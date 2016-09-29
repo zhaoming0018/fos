@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<style type="text/css">
+ img{
+ 	display:block;
+	width:400px;
+ 	height:auto;
+ 	margin:10px auto;
+ }
+</style>
+<title>系科简介</title>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+		<div class="w2 pull-left">
+			
+		<div class="navside">
+	<div class="navList mb20">
+		<div class="navTitle">系科简介</div><!-- 数据库读出数据 -->
+		<ul>
+			<volist name="list" id="vo">
+			<li><a href="__APP__/Department/index/id/<{$vo.department_id}>"><{$vo.department_name}></a></li><!-- 数据库读出 -->
+			</volist>
+		</ul>
+	</div>
+</div>	
+			
+		
+		</div>
+		<div class="w10 pull-left">
+			<div class="article">
+				<div class="articleTitle">
+					<div><{$dept.department_name}></div>
+					<hr/>
+				</div>
+				<div class="w9 center-block">
+					<{$dept.department_content}>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+</div>
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+一、每次大版本更新需要更改数据库配置。
+
+更改两个位置：
+1.\fos\Admin\Conf\config.php
+//'DB_DSN'=>'mysql://用户名:密码@主机:3306/数据库'
+
+2.\fos\Home\Conf\config.php 
+//'DB_DSN'=>'mysql://用户名:密码@主机:3306/数据库'
+更改这两个地方的配置文件
+

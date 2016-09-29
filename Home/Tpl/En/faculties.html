@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+		<title>Faculties</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-desktop.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-1200px.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-noscript.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enStyle.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enstyle-desktop.css" />
+		<script src="__PUBLIC__/Js/5grid/jquery.js"></script>
+		<script src="__PUBLIC__/Js/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+		<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+		<style>
+			a{
+				color:#666;
+			}
+		</style>
+	</head>
+	<body class="no-sidebar">
+		<!-- Header -->
+		<div id="header-wrapper">
+		
+		<include file='Public:e_head'/>
+			
+		</div>
+		<!-- Page Wrapper -->
+		<div id="wrapper" class="5grid-layout">
+
+			<!-- Page Content -->
+			<div id="page" class="row">
+				
+				<!-- Content Area -->
+				<div id="content" style="padding:5px 10px;">
+					
+					<for start="1" end="8">
+							<div style="text-align:center;font-size:20px;"><{$department.$i}></div>
+							<table class="table table-bordered">
+							<for start="0" end="$list.$i.count" name="j">
+								<eq name="j%5" value="0"><tr></eq>
+								<td style="display:inblock;width:20%;"><a href="__APP__/En/teacher/id/<{$list.$i.$j.id}>"><{$list.$i.$j.name}></a></td>
+								<eq name="j%5" value="4"></tr></eq>
+							</for>
+							<if condition="$list.$i|count % 5 eq 0"></tr></if>
+							</table>
+					</for>
+					
+				</div>
+				
+				
+				<!-- Content Area Ends Here -->
+
+			</div>
+			<!-- Page Content -->
+		</div>
+		<!-- Wrapper Ends Here -->
+
+
+	
+		<!-- Copyright -->
+		<div class="5grid-layout" id="copyright">
+			<include file='Public:e_foot'/>
+		</div>
+		
+</body>
+</html>

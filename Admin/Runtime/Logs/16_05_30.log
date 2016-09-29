@@ -1,0 +1,2347 @@
+[ 2016-05-30T07:54:23+08:00 ] 180.118.54.147 /fos/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000699s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000447s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008545s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000346s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-05-30T07:58:37+08:00 ] 180.118.54.147 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-30T07:58:37+08:00 ] 180.118.54.147 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-30T08:11:13+08:00 ] 180.118.54.147 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005156s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-05-30T08:11:14+08:00 ] 180.118.54.147 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-30T08:11:41+08:00 ] 180.118.54.147 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000526s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000902s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000292s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000227s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-05-30T08:11:42+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000484s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000474s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000319s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000335s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000232s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-05-30T08:13:20+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000700s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000453s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000334s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000240s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000152s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-05-30T08:13:50+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000796s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000492s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000498s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000192s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009171s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000279s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-30T08:14:23+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000732s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000452s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000628s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000230s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000263s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000239s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-30T08:15:18+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000728s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000478s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008798s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000202s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-30T08:16:09+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000751s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000163s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008646s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000198s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-30T08:16:22+08:00 ] 180.118.54.147 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-30T08:28:46+08:00 ] 180.118.54.147 /fos/admin.php/Endept/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000698s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `lxy_department` [ RunTime:0.000480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_department` LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT `department_id` AS `id`,`department_time` AS `time`,`department_name_en` AS `name`,`department_content_en` AS `content` FROM `lxy_department` ORDER BY department_time desc LIMIT 0,20   [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000274s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009810s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000235s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-05-30T14:01:02+08:00 ] 117.90.242.152 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000294s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000346s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000187s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-05-30T14:01:02+08:00 ] 117.90.242.152 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-05-30T14:01:10+08:00 ] 117.90.242.152 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004400s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000181s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-05-30T14:01:11+08:00 ] 117.90.242.152 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000445s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008591s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000199s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000326s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-05-30T14:01:21+08:00 ] 117.90.242.152 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000732s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000484s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000156s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000187s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008697s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000198s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-30T14:01:21+08:00 ] 117.90.242.152 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000728s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000463s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000469s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000216s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008781s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000207s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-05-30T14:01:42+08:00 ] 117.90.242.152 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000191s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-05-30T14:01:42+08:00 ] 117.90.242.152 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-30T14:01:53+08:00 ] 117.90.242.152 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000189s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-30T14:01:53+08:00 ] 117.90.242.152 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-05-30T14:02:06+08:00 ] 117.90.242.152 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000198s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-30T14:02:08+08:00 ] 117.90.242.152 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000494s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000475s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000208s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-05-30T14:04:21+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000256s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000129s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-05-30T14:04:21+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-30T14:04:35+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.7229648707434535
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-05-30T14:04:36+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.7229648707434535?0.006926194531843066
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-05-30T14:04:37+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.7229648707434535?0.006926194531843066?0.8264449883718044
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-30T14:04:38+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.7229648707434535?0.006926194531843066?0.8264449883718044?0.5577804301865399
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-30T14:04:55+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-30T14:04:56+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-30T14:05:11+08:00 ] 106.114.179.212 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000784s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000177s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-05-30T14:05:12+08:00 ] 106.114.179.212 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000721s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000447s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000227s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000116s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-05-30T14:05:30+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005302s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000215s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000216s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-05-30T14:05:36+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-05-30T14:05:47+08:00 ] 106.114.179.212 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000192s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000180s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-30T14:05:49+08:00 ] 106.114.179.212 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000815s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000477s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000180s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000203s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-30T14:06:03+08:00 ] 106.114.179.212 /fos/admin.php/Institution/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000737s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000488s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000474s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `lxy_institution` [ RunTime:0.000490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_institution` LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT `Institution_id` AS `id`,`Institution_time` AS `time`,`Institution_name` AS `name`,`Institution_content` AS `content` FROM `lxy_institution` ORDER BY institution_time desc LIMIT 0,20   [ RunTime:0.000302s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009985s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000252s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000132s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-05-30T14:29:55+08:00 ] 117.90.242.152 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000742s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000489s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000484s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000204s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000253s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-05-30T16:40:30+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001758s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017294s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001080s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000922s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2016-05-30T16:40:30+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-05-30T16:40:42+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.984880531206727
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-05-30T16:40:42+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.984880531206727?0.6254014533478767
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-30T16:40:43+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify?0.984880531206727?0.6254014533478767?0.1739715423900634
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-30T16:40:47+08:00 ] 106.114.179.212 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000812s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000215s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000126s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-30T16:40:49+08:00 ] 106.114.179.212 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000719s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000455s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000448s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000158s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000220s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013862s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000333s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-05-30T16:41:00+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-05-30T16:41:07+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-05-30T16:43:32+08:00 ] 106.114.179.212 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000453s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000174s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009024s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000206s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T16:43:44+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005318s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000186s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-05-30T16:43:44+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-05-30T16:49:39+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000174s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005416s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000200s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000143s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-05-30T16:49:45+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-05-30T16:50:05+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005562s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000202s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000147s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-30T16:50:07+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-30T16:50:23+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005124s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-05-30T16:50:23+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-05-30T16:50:25+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005142s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000209s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-05-30T16:50:25+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-05-30T16:52:44+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007660s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000192s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000150s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-05-30T16:52:45+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-30T16:52:51+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005152s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000189s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000350s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-05-30T16:52:52+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-30T16:52:54+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005291s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-30T16:52:54+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-05-30T16:52:55+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005233s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000197s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-30T16:52:55+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-05-30T16:53:17+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005542s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000203s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-30T16:53:18+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-05-30T16:53:33+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005179s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-05-30T16:53:33+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-05-30T16:54:20+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005406s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000276s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-30T16:54:22+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-05-30T16:54:24+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000287s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-05-30T16:54:25+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-30T16:54:28+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000214s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-05-30T16:54:28+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-05-30T16:54:31+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005164s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000223s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000333s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-30T16:54:33+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T16:54:51+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005152s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-05-30T16:54:51+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-05-30T16:54:54+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005762s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000310s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000227s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000140s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-05-30T16:54:56+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-05-30T16:56:05+08:00 ] 106.114.179.212 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005230s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T16:56:07+08:00 ] 106.114.179.212 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-30T16:56:18+08:00 ] 106.114.179.212 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000787s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000273s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000206s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-30T16:56:19+08:00 ] 106.114.179.212 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000461s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000159s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000271s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008572s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000203s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000140s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T17:49:41+08:00 ] 106.114.184.244 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000174s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-30T17:49:43+08:00 ] 106.114.184.244 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-05-30T17:50:01+08:00 ] 106.114.184.244 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000213s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004962s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000193s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-30T17:50:02+08:00 ] 106.114.184.244 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000770s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000483s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000479s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000205s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000326s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-05-30T17:50:14+08:00 ] 106.114.184.244 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000210s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000229s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-05-30T17:50:21+08:00 ] 106.114.184.244 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-05-30T17:50:31+08:00 ] 106.114.184.244 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000782s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-30T17:50:37+08:00 ] 106.114.184.244 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000729s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000483s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000478s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008496s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000202s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-05-30T17:50:42+08:00 ] 106.114.184.244 /fos/admin.php/Institution/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000719s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000487s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `lxy_institution` [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_institution` LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT `Institution_id` AS `id`,`Institution_time` AS `time`,`Institution_name` AS `name`,`Institution_content` AS `content` FROM `lxy_institution` ORDER BY institution_time desc LIMIT 0,20   [ RunTime:0.000309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009753s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000212s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-30T17:50:48+08:00 ] 106.114.184.244 /fos/admin.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000735s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_true` = 1 )  [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010118s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000249s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-30T18:45:32+08:00 ] 106.114.184.244 /fos/admin.php/Department/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000740s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000456s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000467s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `lxy_department` [ RunTime:0.000513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_department` LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT `department_id` AS `id`,`department_name` AS `name`,`department_time` AS `time`,`department_content` AS `content` FROM `lxy_department` ORDER BY department_time desc LIMIT 0,20   [ RunTime:0.000509s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000290s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009891s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000210s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000211s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-05-30T18:45:35+08:00 ] 106.114.184.244 /fos/admin.php/News/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000737s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000630s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000452s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: category /webdocs/templete/fos/Admin/Lib/Action/NewsAction.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_news` LIMIT 1   [ RunTime:0.001082s ]
+SQL: SELECT `news_id` AS `id`,`news_title` AS `title`,`news_category` AS `category`,`news_time` AS `time`,`news_content` AS `content` FROM `lxy_news` ORDER BY news_time desc LIMIT 0,20   [ RunTime:0.001506s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000161s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000284s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000214s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-30T18:47:09+08:00 ] 117.90.242.152 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000174s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005404s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000216s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000132s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-05-30T18:47:09+08:00 ] 117.90.242.152 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+

@@ -1,0 +1,40 @@
+<layout name="layout" />
+<form action=
+<if condition="$_GET.id eq null">'__APP__/Enedu/doAdd'
+<else />'__APP__/Enedu/doEdit/id/<{$_GET.id}>'
+</if>  
+method="post" enctype="multipart/form-data">
+	<table class="table table-bordered">
+	<tr><td>Name: </td><td><input type="text" name="foreign_name" /></td></tr>
+	<tr><td>Department:</td><td><select name="foreign_department">
+			<volist name='department' id='vo'>
+				<option value='<{$vo.department_id}>'><{$vo.department_name_en}></option>
+			</volist>	
+		  </select></td></tr>
+	<tr><td>Title:</td><td><input type="text" name="foreign_title" /></td></tr>
+	<tr><td>Photo：</td><td><input type="file" name="foreign_photo" /></td></tr>
+	<tr><td>Add: </td><td><input type="text" name="foreign_add" /></td></tr>
+	<tr><td>Mobile:</td><td><input type="text" name="foreign_mobile"/></td></tr>
+	<tr><td>E-mail: </td><td><input type="text" name="foreign_email" /></td></tr>
+	<tr><td>Fax: </td><td><input type="text" name="foreign_fax"></td></tr>
+	<tr><td>Homepage: </td><td><input type="text" name="foreign_Homepage"/></td></tr>
+	<tr><td>Research Fields & Orientations: </td><td><textarea name="foreign_RFO" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Education: </td><td><textarea name="foreign_education" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Course Offer：</td><td><textarea name="foreign_CO" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Publication：</td><td><textarea name="foreign_publication" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Research Project in Progress：</td><td><textarea name="foreign_RPIP" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Honor & Award：</td><td><textarea name="foreign_HA" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>Professional Affillations：</td><td><textarea name="foreign_PA" id="" cols="80" rows="10"></textarea></td></tr>
+	<tr><td>Major Academic Activities：</td><td><textarea name="foreign_MAA" id="" cols="80" rows="5"></textarea></td></tr>
+	<tr><td><button id="submitForm" class="w9 btn bcm tcw">提交</button></td><td><input type="reset" class="w3 btn bcm tcw" value="重置" /></td></tr>		
+	</table>
+</form>
+<script type="text/javascript">
+	$(document).ready(function(){
+		<volist name="foreign" id="vo">
+			 if($("[name='<{$key}>']").length!=0&&"<{$key}>"!="foreign_photo"){
+			 	$("[name='<{$key}>']")[0].value="<{$vo}>";
+			 }
+		</volist>
+	});
+</script>

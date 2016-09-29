@@ -1,0 +1,14 @@
+<layout name="layout" />
+<form action='__URL__/doAdd' method='post' enctype='multipart/form-data'>
+	<table class="table table-bordered">
+		<tr><td>请选择文件:</td><td><input type='file'  name='photo' /></td></tr>
+		<tr><td>请选择分类：</td><td><select name="file_category">
+					<volist name='filecate' id='vo'>
+						<option value='<{$vo.filecate_id}>'><{$vo.filecate_name}></option>
+					</volist>	
+				  </select></td>
+		</tr>
+		<!-- <input type='text' name='filename' /><br/> -->
+		<tr><td colspan="2"><input type='submit' class="btn bcm tcw w3" value='提交' /></td></tr>
+	</table>
+</form>

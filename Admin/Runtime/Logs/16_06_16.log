@@ -1,0 +1,284 @@
+[ 2016-06-16T09:57:51+08:00 ] 117.90.102.33 /fos/admin.php/login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005142s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000193s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-06-16T09:57:51+08:00 ] 117.90.102.33 /fos/admin.php/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-06-16T09:58:13+08:00 ] 117.90.102.33 /fos/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `lxy_users` [ RunTime:0.000937s ]
+SQL: SELECT * FROM `lxy_users` WHERE ( `user_name` = 'admin' ) AND ( `user_password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000171s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004356s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000177s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-06-16T09:58:14+08:00 ] 117.90.102.33 /fos/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000860s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000569s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008438s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000197s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-06-16T09:58:16+08:00 ] 117.90.102.33 /fos/admin.php/News/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000852s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000545s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000577s ]
+NOTIC: [8] Undefined index: category /webdocs/templete/fos/Admin/Lib/Action/NewsAction.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_news` LIMIT 1   [ RunTime:0.001088s ]
+SQL: SELECT `news_id` AS `id`,`news_title` AS `title`,`news_category` AS `category`,`news_time` AS `time`,`news_content` AS `content` FROM `lxy_news` ORDER BY news_time desc LIMIT 0,20   [ RunTime:0.001423s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000216s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-06-16T09:58:19+08:00 ] 117.90.102.33 /fos/admin.php/News/edit
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000579s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000568s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000154s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000586s ]
+NOTIC: [8] Undefined index: id /webdocs/templete/fos/Admin/Lib/Action/NewsAction.class.php 第 75 行.
+SQL: SELECT * FROM `lxy_news` LIMIT 1   [ RunTime:0.000247s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined index: id /webdocs/templete/fos/Admin/Runtime/Cache/35f5bec69668089c1808466ba2e3b1dc.php 第 185 行.
+NOTIC: [8] Undefined index: id /webdocs/templete/fos/Admin/Runtime/Cache/35f5bec69668089c1808466ba2e3b1dc.php 第 195 行.
+NOTIC: [8] Undefined index: id /webdocs/templete/fos/Admin/Runtime/Cache/35f5bec69668089c1808466ba2e3b1dc.php 第 215 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000200s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-06-16T09:58:36+08:00 ] 117.90.102.33 /fos/admin.php/News/doAdd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000856s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000572s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000612s ]
+SQL: INSERT INTO `lxy_news` (`news_title`,`news_time`,`news_content`,`news_category`) VALUES ('测试',1466042316,'<p>这是一个测试</p>','3') [ RunTime:0.019826s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000208s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000181s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000220s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-06-16T09:58:38+08:00 ] 117.90.102.33 /fos/admin.php/news/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `lxy_category` [ RunTime:0.000853s ]
+SQL: SELECT * FROM `lxy_category`  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `lxy_position` [ RunTime:0.000546s ]
+SQL: SELECT * FROM `lxy_position`  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `lxy_filecate` [ RunTime:0.000539s ]
+SQL: SELECT * FROM `lxy_filecate`  [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000578s ]
+NOTIC: [8] Undefined index: category /webdocs/templete/fos/Admin/Lib/Action/NewsAction.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lxy_news` LIMIT 1   [ RunTime:0.001115s ]
+SQL: SELECT `news_id` AS `id`,`news_title` AS `title`,`news_category` AS `category`,`news_time` AS `time`,`news_content` AS `content` FROM `lxy_news` ORDER BY news_time desc LIMIT 0,20   [ RunTime:0.001478s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 2 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 3 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `lxy_category` WHERE ( `category_id` = 4 ) LIMIT 1   [ RunTime:0.000151s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009794s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000235s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000187s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000337s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000382s ]
+

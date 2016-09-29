@@ -1,0 +1,24 @@
+<layout name="layout" />
+<form action=
+<if condition="$_GET.id eq null">'__APP__/Endept/doAdd'
+<else />'__APP__/Endept/doEdit/id/<{$_GET.id}>'
+</if> 
+method='post'>
+<div>
+	<div class="text-center">添加组织机构</div>
+	<hr />
+	<div class="text-center">题目：<input type='text' name='name' <if condition="$_GET.id neq null"> value='<{$department['department_name_en']}>'</if>/></div>
+	<hr />
+	<div>
+	<div class="text-center">内容</div>
+		<script id="editor" type="text/plain" style="width:624px;height:500px;margin:0 auto;"><if condition="$_GET.id neq null"><{$department['department_content_en']}></if></script>
+		</div>
+		<div class="w9 center-block mt20 mb20"><input type='submit' class="btn bcm tcw w3" value='提交' />
+		<input type="hidden" name="content" />	</div>
+	</div>
+	</form>
+<script type='text/javascript'>
+	var ue = UE.getEditor('editor');
+	var con= document.getElementByName('content');
+	con.innerHTML=ue.getContent;
+</script>

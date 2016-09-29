@@ -1,0 +1,12 @@
+<layout name="layout" />
+<table class="table table-bordered">
+<foreach name='list' item='co'>
+	<tr>
+	    <td><{$co.foreign_name}></td>
+		<td><a href='__APP__/Enedu/edit/id/<{$co.foreign_id}>'>修改</a></td>
+		<td><a href='__APP__/Enedu/delete/id/<{$co.foreign_id}>'>删除</a></td>
+	</tr>
+</foreach>
+</table>
+<div class="jogger"><{$page}></div>
+<p class="mt20"><a href='__APP__/Enedu/edit' class="btn bcm w3 tcw">新增</a></p>

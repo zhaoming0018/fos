@@ -1,0 +1,297 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+	<head>
+		<title>depatrment list</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-desktop.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-1200px.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-noscript.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enStyle.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enstyle-desktop.css" />
+		<script src="__PUBLIC__/Js/5grid/jquery.js"></script>
+		<script src="__PUBLIC__/Js/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+		<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+<style>
+.list-content{
+	width:95%;
+	margin:5px auto;
+}
+	 h3{
+		font-size:20px;
+		font-weight:bolder;
+	 	
+	}
+	h4{
+	font-size:18px;
+		font-weight:bold;
+		color:#B31B1B;
+	}
+	P{
+	text-indent:2em;
+	}
+	li{
+	padding:3px 0;
+	}
+</style>
+	</head>
+	<body class="no-sidebar">
+		<!-- Header -->
+		<div id="header-wrapper">
+		
+			<header id="header">
+				<div class="5grid-layout">
+					<div class="row">
+						<div class="5u" id="logo">
+							<h1><a href="#" class="mobileUI-site-name">JIANGSU　UNIVERSARY</a></h1>
+							<p>Faculty of Science</p>
+						</div>
+						<div class="7u" id="menu">
+							<nav class="mobileUI-site-nav">
+								<ul>
+									<li class="current_page_item"><a href="__APP__/En/index">Home</a></li>
+									<li class="current_page_item"><a href="__APP__/En/Department">Department</a></li>
+									<li class="current_page_item"><a href="__APP__/En/Faculties">Faculties</a></li>
+									<li class="current_page_item"><a href="http://fos.ujs.edu.cn/cca/">International</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div><!-- end <div id="header-wrapper"> -->
+		
+		<!-- Page Wrapper -->
+		<div id="wrapper" class="5grid-layout">
+			<!-- Page Content -->
+			<div class="row list-content">
+				<section class="6u list" id="">
+					<h3>Discipline Category</h3>
+					<div>
+						<table class="table table-bordered">
+						<tr><td width=35>No.</td><td width=135>Discipline Category</td><td width=230>1<sup>st</sup> - Level Discipline</td><td width=230>2<sup>nd</sup> - Level Discipline</td></tr>
+						<tr><td>1</td><td>Natural Science</td><td>Mathematics</td><td>Fundamental Mathematics</td></tr>
+						<tr><td>2</td><td>Natural Science</td><td>Mathematics</td><td>Applied Mathematics</td></tr>
+						<tr><td>3</td><td>Natural Science</td><td>Mathematics</td><td>Probability and Statistics</td></tr>
+						<tr><td>4</td><td>Natural Science</td><td>Mathematics</td><td>Computational Mathematics</td></tr>
+						<tr><td>5</td><td>Natural Science</td><td>Mathematics</td><td>Operations Research & Cybernetics</td></tr>
+						<tr><td>6</td><td>Engineering</td><td>Control Science and Engineering</td><td>System Engineering</td></tr>
+						</table>
+					</div>
+				</section>
+				
+				<section class="6u" id="">
+					<h3>Table of Doctor Programs</h3>
+					<div>
+					<table class="table table-bordered">
+					<tr><td colspan=4>Disciplines and Majors with Doctoral Programs</td></tr>
+					<tr><td width=35>No.</td><td width=135>Discipline Category</td><td width=230>1<sup>st</sup> - Level Discipline</td><td width=230>2<sup>nd</sup> - Level Discipline</td></tr>
+					<tr><td>1</td><td>Engineering</td><td>Control Science and Engineering</td><td>System Engineering</td></tr>
+					</table>
+					</div>
+				</section>
+				</div>
+				
+				<div class="row list-content">
+				
+				<section class="6u" id="">
+					<h3>Optical engineering</h3>
+					<div>
+						<p>The major research fields include the opto-electrical information detection and processing, the laser processing and higher power laser control, the optical communication and photonic devices technology, the contemporary optical system design, the optical interference measuring technique and nondestructive characterisation, and the photoelectron materials and devices.</p>
+
+　　						<p>The main courses include the generality of philosophy of science, the scientific socialism theory and practice, English, the matrix theory, the equations of mathematical physics, the numerical analysis, the advanced optics, and the information optics. The educational period is three years.</p>
+
+　　						<p>The master program of Optical engineering is organized by Faculty of Mechanical Engineering and the Faculty of Science jointly. The main research fields include optical message processing, optical testing and optical communication technology, etc. Now there are six professors, seventeen associate professors and senior engineers. The academic leader is professor Wang Yawei.</p>
+	
+　　						<p>Under the continual efforts and the intensive guidance of supervisors, graduates have improved the ability of scientific research quickly, all of them can publish papers in local and international major journals, and all of them can pass the evaluation successfully. </p>
+					</div>
+				</section>
+				
+				<section class="6u" id="">
+					<h3>Physical electronics</h3>
+					<div>
+						<p>The master program of physical electronics aims to train the students to be excellent talented people with the morally, intelligently, and phycically integrated development. They can undertake the photoelectrical information processing and detection, optical sensor technology, reciprocity theory and applied technology between light and matterial, research and development of photoelectron materials and devices.</p>
+
+　　						<p>The main courses include the generality of philosophy of science, the scientific socialism theory and practice, English, the matrix theory, the equations of mathematical physics, the numerical analysis, the engineering optics, and the advanced quantum mechanics. The major research fields include the optical information science and detection technology, the photoelectron materials and devices, the opto-acoustic and optothermal effects and diagnosis technology, the multi-physical field coupling and multiple dimensioned calculation, and the photoelectron communication. The educational period is three years.</p>
+
+　　						<p>The master program of physical electronics has formed a highly-skilled research team in the fields of optical information science and measurement technique, photoelectronical technique, the effect and diagnostics of photoacoustic and optothermal, multiphysical field coupled and multiscaling method of calculating, the material and instruments of photoelectron, the photoelectron communication and so on, relying on the strong technological strength and experimental conditions of the physics departments in the Faculty of Science of Jiangsu University. This subject now has three doctoral supervisors (two of them are external part-time teachers), eleven professors (five of them are external part-time teachers, including professor Frank Wyrowsiki, optical expert in Jena University of Germany), sixteen associate professors (six of them have doctorate degrees). The subject leader of the master program of Physical electronics is the professor and doctoral supervisor Wang Yawei, and master supervisors include professor Xu Boqiang, professor Wang Jijun, professor Cao Guorong, professor Shen Tinggen, associate professor Hua Shiqun and associate professor Wang Zhengling.</p>
+
+　　						<p>Under the continual efforts and the careful guidance of supervisors, graduates have improved the ability of scientific research quickly in their study time, all of them can publish papers in local and international major journals, all of them can pass the evaluation successfully, some of the them have been selected as the excellent ones. </p>
+					</div>
+				</section>
+				</div><!-- end class="row" -->
+				
+				<div class="row list-content">
+				<section class="6u" id="">
+					<h3>Microelectronics and Solid Electronics</h3>
+					<div>
+					<p>The major research fields include two contents. One is optoelectronic devices research and application. Which contains the photoelectric semiconductor devices and the theoretical models, design and development of the light-electricity, electricity-light conversion circuit and monolithic photoelectric integrated circuit. And it includes the research of the negative refraction photons crystal fiber as well as equivalent negative refraction photonic crystal fiber amplifier characteristics. In addition, it is related to the explore of the applicable dense WDM optical communication of the equivalent negative refractive index photonic crystal fiber amplifier light waves. The other one is the nano- metal electronic and optical properties research, which consists of the noble metal nanoparticles electronic and optical properties, nano- noble metal environment detects, particle chemical measurement and biological sensors.</p>
+
+　　					<p>The master program of Microelectronics and Solid Electronics is organized by the School of Electrical and Information Engineering and the Faculty of Science jointly. The goal is to trace the hot topic of advanced international research of microelectronics technology, such as micro- and nano- integrated circuits, optical communication and optical information field, semiconductor and optoelectronic devices and so on. Through studying, graduates can master basic science knowlegde and reserch methods including basic theories and simulations of the device, design and application.This master program will recruit students in 2012.  </p>
+					</div>
+				</section>
+				
+				<section class="6u" id="MMC">
+					<h3>Physics Main courses</h3>
+					<div>
+					<ul style="list-style-type:decimal; padding-left:22px">
+						<li>Basic courses (At least chosen two courses)</li>
+						    <ul>
+						    <li>The equations of mathematical physics （2.5 credits）</li>
+						    <li>The matrix theory （2 credits）</li>
+						    <li>The numerical analysis（3 credits）</li>
+						    </ul>
+						<li>Basic technical courses (At least chosen two courses)</li>
+						    <ul>
+						    <li>The engineering optics （2 credits）</li>
+						    <li>The advanced quantum mechanics （2 credits）</li>
+						    <li>The advanced electromagnetic theory （2 credits）</li>
+						    <li>The advanced microwave network （2 credits）</li>
+						    <li>The numerical analysis for electromagnetic fields （2 credits）</li>
+						    </ul>
+						<li>Specialized courses (At least chosen two courses)</li>
+						    <ul>
+						    <li>The techniques and applications of modern photosensor （2 credits）</li>
+						    <li>The numerical calculating method in physics （2 credits）</li>
+						    <li>The theory and application of light scattering （2 credits）</li>
+						    <li>The advanced experiments in physics （2 credits）</li>
+						    <li>The photoelectronics （2 credits）</li>
+						    <li>The piezoelectric ultrasonic transducer and its applications （2 credits）</li>
+						    <li>The optical holography and information base （2 credits）</li>
+						    <li>The theory of solids （2 credits）</li>
+						    </ul>
+						<li>Added courses (At least chosen two courses for transdisciplinary and equal education)</li>
+						    <ul>
+						    <li>The electromagnetic field and electromagnetic wave （2 credits）</li>
+						    <li>The microwave circuit （2 credits）</li>
+						    <li>The communication antenna （2 credits）</li>
+						    <li>The fundamentals of optics （2 credits）</li>
+						    <li>The technology of electronics （2 credits）</li>
+						    </ul>
+						</ul>
+					</div>
+				</section>
+			</div>
+			
+			
+			<div class="row list-content">
+				<section class="6u" id="C">
+					<h3>Doctoral Programs Curriculum</h3>
+					 <div >
+						　　Each student follows an individual program plan. The program plan must have a minimum of 15 credit 
+						hours and include 3 credit of seminar.
+						
+						<ul style="list-style-type:decimal;">
+						<li>Required</li>
+						<table class="table table-bordered">
+						<tr><td width=360>Required</td><td width=55>Credit</td></tr>
+						<tr><td>Overview of China	</td><td>3</td></tr>
+						<tr><td>English</td><td>3</td></tr>
+						</table><br>
+						At least two courses, chosen from the following list:<br />
+						<table  class="table table-bordered">
+						<tr><td width=360>Core Courses</td><td width=55>Credit</td></tr>
+						<tr><td>Functional Analysis and its Application</td><td>2</td></tr>
+						<tr><td>Mathematical model</td><td>2</td></tr>
+						<tr><td>Stochastic differential equations</td><td>2</td></tr>
+						<tr><td>Chaotic dynamics</td><td>2</td></tr>
+						<tr><td>The Multivariable Statistical Analysis and SAS System</td><td>2</td></tr>
+						</table><br />
+						
+						<li>Specialized courses</li>
+						At least two courses, chosen from the following list:<br />
+						<table  class="table table-bordered">
+						<tr><td width=360>Courses</td><td width=55>Credit</td></tr>
+						<tr><td>Modeling and simulation of complex systems</td><td>2</td></tr>
+						<tr><td>Large Scale Systems Theory and Application</td><td>2</td></tr>
+						<tr><td>Analysis and Control of System Model</td><td>2</td></tr>
+						<tr><td>Mathematics Method for Economists and Model</td><td>2</td></tr>
+						<tr><td>Analysis and Control of Evolution System</td><td>2</td></tr>
+						<tr><td>Analysis of Stochastic Model</td><td>2</td></tr>
+						<tr><td>Theories of Random Field in image processing </td><td>2</td></tr>
+						</table><br />
+						
+						<li>Selective course</li>
+						<table  class="table table-bordered">
+						<tr><td width=360>Courses</td><td width=55>Credit</td></tr>
+						<tr><td>Theory and Application of Nonlinear System</td><td>2</td></tr>
+						<tr><td>Fuzzy mathematics and fuzzy control</td><td>2</td></tr>
+						<tr><td>Optimization  Theory   and  Practice</td><td>2</td></tr>
+						</table>
+						</ul>
+					</div>
+				</section>
+				
+				<section class="6u" id="MC">
+					<h3>Mathematics Main courses</h3>
+					<div>
+					<ul style="list-style-type:decimal; padding-left:22px">
+					<li>Basic courses</li>
+					    <ul>
+					    <li>Fundaments for Real Analysis （3 credits）</li>
+					    <li>Functional Analysis （2.5 credits）</li>
+					    <li>Fundamentals of Algebra （3 credits）</li>
+					    </ul>
+					<li>Basic technical courses</li>
+					    <ul>
+					    <li>Methods of modern probability and statistics （2.5 credits）</li>
+					    <li>Advanced Numerical Analysis  （3 credits）</li>
+					    <li>The Basis of Dynamical System （2.5 credits）</li>
+					    <li>Qualitative Theory of Differential Equations （2 credits）</li>
+					    <li>Modern Partial Differential Equations （2.5 credits）</li>
+					    <li>Measure Theory （3 credits）</li>
+					    <li>Algebraic topology （2 credits）</li>
+					    <li>Nonlinear functional analysis（2 credits）</li>
+					    </ul>
+					<li>Specialized courses</li>
+					    <ul>
+					    <li>Nonlinear Evolution Equations （2 credits）</li>
+					    <li>Solitons Theory （2 credits）</li>
+					    <li>Semigroup of Operator （2 credits）</li>
+					    <li>Differential Dynamic System （2 credits）</li>
+					    <li>Differential Manifold （2 credits）</li>
+					    <li>Modern Partial Differential Equations（2 credits）</li>
+					    <li>Infinite-dimensional dynamical system（2 credits）</li>
+					    <li>Analytic probability theory （2 credits）</li>
+					    <li>Ergodic Theory （2 credits）</li>
+					    <li>Stochastic differential equations （2 credits）</li>
+					    <li>The Multivariable Statistical Analysis and SAS System （2 credits）</li>
+					    <li>Energy supply and demand system analysis （2 credits）</li>
+					    <li>Biological Mathematics （2 credits）</li>
+					    <li>Differential Equations with Numerical Methods（2 credits）</li>
+					    <li>Wavelet Analysis（2 credits）</li>
+					    <li>Fractal geometry （2 credits）</li>
+					    <li>Reliability Analysis of Complex Systems （2 credits）</li>
+					    <li>Theory and Application of perturbation method  （2 credits）</li>
+					    <li>Sobolev Space（2 credits）</li>
+					    <li>System Science and System Engineering （2 credits）</li>
+					    <li>Optimization  Theory   and  Practice  （2 credits）</li>
+					    <li>Lie Groups and Lie Algebras（2 credits）</li>
+					    <li>Modern Harmonic Analysis （2 credits）</li>
+					    <li>Chaotic dynamics  （2 credits）</li>
+					    <li>Large Scale Systems Theory and Application （2 credits）</li>
+					    <li>Analysis and Control of System Model  （2 credits）</li>
+					    <li>Fuzzy System and Fuzzy Control （2 credits）</li>
+					    <li>Complex System Modeling （2 credits）</li>
+					    </ul>
+					</ul>
+					</div>
+				</section>
+			</div>
+			<!-- Page Content -->
+		<!-- Wrapper Ends Here -->
+	</div>
+	
+		<!-- Copyright -->
+		<div class="5grid-layout" id="copyright">
+			<div class="row">
+				<div class="12u">
+					<p>&copy; JiangSu University Copyright ©2010-2015 <a href="__APP__/Index/index">Chinese</a> | All rights reserved</p>
+				</div>
+			</div>
+		</div>
+		
+</body>
+</html>

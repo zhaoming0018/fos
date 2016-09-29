@@ -1,0 +1,18 @@
+<layout name="layout" />
+<div>
+	<ul>
+	<foreach name='list' item='co'>
+		<div style="background:#eee">
+		<li> <{$co.manage_table}>--<{$co.manage_category}>--<{$co.manage_name}>
+			<a href='__APP__/Manage/edit/id/<{$co.manage_id}>'>修改</a>
+			<a href='__APP__/Manage/delete/id/<{$co.manage_id}>'>删除</a>
+		</li>
+		<hr/>
+		</div>
+	</foreach>
+	</ul>
+	<div>
+	<{$page}>
+	</div>
+	<p><a href="__APP__/Manage/edit" class="btn bcm w3">新增</a></p>
+</div>

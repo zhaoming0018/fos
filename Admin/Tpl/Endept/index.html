@@ -1,0 +1,16 @@
+<layout name="layout" />
+<div>
+	<table class="table table-bordered">
+	<foreach name='list' item='co'>
+		<tr> <td><{$co.name}>--<{$co.time|date='Y-m-d',###}></td>
+			<td><a href='__APP__/Endept/edit/id/<{$co.id}>'>修改</a></td>
+			<td><a href='__APP__/Endept/delete/id/<{$co.id}>'>删除</a></td>
+		</tr>						
+	</foreach>
+	</table>
+	<div class="jogger"> 
+	<{$page}>
+	</div>
+</div>
+<p><a href='__APP__/Endept/edit' class="btn bcm w3 tcw">新增</a></p>
+		

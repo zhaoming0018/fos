@@ -1,0 +1,33 @@
+<layout name="layout" />
+<form action=
+<if condition="$_GET.id eq null">'__APP__/Develop/doAdd'
+<else />'__APP__/Develop/doEdit/id/<{$_GET.id}>'
+</if> 
+method='post'>
+<div>
+	<div class="text-center">添加内容</div>
+	<hr />
+	<div class="text-center">题目：<input type='text' name='title' <if condition="$_GET.id neq null"> value='<{$denews['denews_title']}>'</if>/></div>
+	<hr />
+	<div class="text-center">分类：
+		<select name="denews_category">
+			<volist name="list" id="vo">
+				<option value ="<{$vo.develop_id}>"  
+				<if condition="$vo.develop_id eq $cate">selected='selected'</if>
+				><{$vo.develop_name}></option>
+			</volist>
+		</select>
+	</div>
+	<div>
+	<div class="text-center">内容</div>
+		<script id="editor" type="text/plain" style="width:624px;height:500px;margin:0 auto;"><if condition="$_GET.id neq null"><{$denews['denews_content']}></if></script>
+		</div>
+		<div class="w9 center-block mt20 mb20"><input type='submit' class="btn bcm tcw w3" value='提交' />
+		<input type="hidden" name="content" />	</div>
+	</div>
+	</form>
+<script type='text/javascript'>
+	var ue = UE.getEditor('editor');
+	var con= document.getElementByName('content');
+	con.innerHTML=ue.getContent;
+</script>

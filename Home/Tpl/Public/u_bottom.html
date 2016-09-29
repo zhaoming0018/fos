@@ -1,0 +1,164 @@
+<?PHP 
+
+
+session_start(); 
+
+
+if( !isset($_COOKIE["user"]) ){ 
+
+
+setcookie("user","newGuest",time()+3600); 
+
+
+}else { 
+
+
+setcookie("user","oldGuest"); 
+
+
+} 
+
+
+?> 
+
+
+
+
+
+
+
+
+<div class="link">
+
+
+	<div class="container  text-center">
+
+
+		<div class="row">
+
+
+			<div class="w9 pull-left">
+
+
+				<div class="row">
+
+
+					<div class="w1 pull-left friendLinkTitle">友<br/>情<br/>链<br/>接</div>
+
+
+					<div class="w11 pull-left friendLinks">
+
+
+						<div class="row">
+
+
+							<div class="w12">
+
+
+								<div class="w3 pull-left"><a href="http://my.ujs.edu.cn" target="_blank">江大信息门户</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://jwc.ujs.edu.cn" target="_blank">教务处</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://kjc.ujs.edu.cn" target="_blank">科技处</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://yjsb.ujs.edu.cn" target="_blank">研究生院</a></div>
+
+
+							</div>
+
+
+						</div>
+
+
+						<div class="row">
+
+
+							<div class="w12">
+
+
+								<div class="w3 pull-left"><a href="http://webmail.ujs.edu.cn" target="_blank">江大邮件系统</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://rsc.ujs.edu.cn" target="_blank">人事处</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://xgc.ujs.edu.cn" target="_blank">学工处</a></div>
+
+
+								<div class="w3 pull-left"><a href="http://jiangfan.ujs.edu.cn/xwzx" target="_blank">新闻中心</a></div>
+
+
+							</div>
+
+
+						</div>
+
+
+					</div>	
+
+
+					<div class="clearfix"></div>
+
+
+				</div><!-- end row -->	
+
+
+			</div>
+
+
+			<div class="w3 pull-left">
+
+
+				<div style="margin-left:100px;margin-top:25px;">
+
+
+					<img src="__PUBLIC__/Images/wx.jpg" style="width:100px;height:100px;margin-left:10px;" alt="江苏大学官方微信公众账号" title="江苏大学官方微信公众账号" />
+
+
+					<h5>江苏大学官方微信</h5>
+
+
+				</div><!-- end 调控宽度 -->
+
+
+			</div>	
+
+
+		</div>
+
+
+		<div class="clearfix"></div>
+
+
+	</div><!-- end class="row" -->
+
+
+</div>
+
+
+<div style="background:#000;">
+
+
+<div class="container text-center" style="line-height:35px;padding-top:0;"><a href="http://fos.ujs.edu.cn/newfos/">【旧版本】</a>&nbsp;&nbsp;&nbsp;&nbsp;江苏大学理学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;2010-<span id="curyear"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：江苏省镇江市学府路301号70信箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：212013&nbsp;&nbsp;电话：0511-88780161
+
+
+&nbsp &nbsp
+
+
+您是第<{$visitor_count}>位访客
+
+
+</div>
+
+
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var myDate = new Date();
+		var curYear = myDate.getFullYear();
+		$("#curyear").html(curYear);
+	}); 
+</script>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<style>
+	table tr td{
+	text-align:center;
+	}
+h4{
+	color:#B31B1B;
+	font-size:18px;
+	margin:20px 0;
+}
+h4 span{
+	display:inline-block;
+	margin-right:10px;
+}
+</style>
+<title>最受学生欢迎的十佳教师</title>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+		<div class="w2 pull-left">
+			<div class="navside">
+				<div class="navList">
+					<div class="navTitle"><a class="tcw tcw" href="__APP__/Develop/index/category/1">本科生培养</a></div><!-- 数据库读出数据 -->
+					<ul>
+						<li><a href="__APP__/Develop/index/name/7" class="tcw">专业介绍</a></li><!-- 数据库读出 -->
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a class="tcw" href="__APP__/Develop/index/category/2">研究生培养</a></div>
+					<ul>
+						<li><a href="__APP__/Develop/index/name/3" class="tcw">招生</a></li>
+						<li><a href="__APP__/Develop/index/name/4" class="tcw">培养</a></li>
+						<li><a href="__APP__/Develop/index/name/5" class="tcw">学位</a></li>
+						<li><a href="__APP__/Develop/index/name/6" class="tcw">研究生成果</a></li>
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a class="tcw" href="__APP__/Teacher/top">最受学生欢迎的十佳教师</a></div>
+				</div>
+			</div><!-- end navside -->
+		</div><!-- end class="w2" -->
+		
+		<div class="w10 pull-left">
+			<div class="article">
+				<eq name="_GET.newsid" value="">
+				<div class="articleTitle">
+					<div>最受学生欢迎的十佳教师</div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block"><p style="text-indent:43px">    <span style="color: black; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;">学校为了全面创建“本科教学质量名校”、推进我校本科教学质量的稳步提升、充分调动广大教师的教学积极性、增强学生参与教学管理的热情。自2011年以来，学校制定了《江苏大学“最受学生欢迎的十佳教师”评选办法》（江苏大校[2011]292号），每年度学期末开展一次“最受学生欢迎的十佳教师”评选工作。经过学生投票，教务处、研究生院、海外教育学院审核并推荐，在全校范围内公示无异议后发文表彰。</span></p><p style="text-indent: 43px;">    <span style="color: black; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 14px;">理学院是学校的教学大院，尤其重视学校的教学工作，自学校开展“最受学生欢迎的十佳教师”评选以来，理学院教师年年榜上有名。</span></p>
+					<ul>
+					<volist name="top" id="vo">
+						<li style="line-height:40px;"><a style="color:#000;" href="__APP__/Teacher/top/newsid/<{$vo.news_id}>"><{$vo.news_title}></a></li>
+					</volist>
+					</ul>
+				</div><!-- articleBody -->
+				<else/>
+				<div class="articleTitle">
+					<div><{$info.news_title}></div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block">
+					<{$info.news_content}>
+				</div><!-- articleBody -->
+				</eq>
+			</div><!-- article -->
+		</div><!-- w10 -->
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+</div>
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

@@ -1,0 +1,192 @@
+[ 2016-06-09T04:48:56+08:00 ] 123.125.71.81 /fos/index.php/Develop/index/category/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [2048] Declaration of DevelopAction::show() should be compatible with that of Action::show() /webdocs/templete/fos/Home/Lib/Action/DevelopAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lxy_info` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `lxy_denews` [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `lxy_develop` [ RunTime:0.000550s ]
+SQL: SELECT `develop_name` FROM `lxy_develop`  [ RunTime:0.000153s ]
+SQL: SELECT `develop_id` FROM `lxy_develop` WHERE ( `develop_level` = 1 ) AND ( `develop_father` = 1 )  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `lxy_denews` WHERE ( `denews_true` = 1 ) AND ( `denews_category` = 7 ) LIMIT 50   [ RunTime:0.024215s ]
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/Home/Lib/Action/DevelopAction.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/Home/Lib/Action/DevelopAction.class.php 第 24 行.
+NOTIC: [8] Undefined offset: -1 /webdocs/templete/fos/Home/Lib/Action/DevelopAction.class.php 第 24 行.
+SQL: SELECT * FROM `lxy_denews` WHERE ( `denews_true` = 1 ) AND ( `denews_category` = null ) LIMIT 50   [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000337s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /webdocs/templete/fos/Home/Runtime/Cache/a7c9e6cf02187371f43c5c4a4f4480c4.php 第 377 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009817s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000304s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-06-09T10:39:16+08:00 ] 220.181.108.88 /fos/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2048] Declaration of IndexAction::_empty() should be compatible with that of CommonAction::_empty() /webdocs/templete/fos/Home/Lib/Action/IndexAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lxy_info` [ RunTime:0.000866s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: UPDATE `lxy_info` SET `info_int`=545119 WHERE ( `info_name` = 'visit_count' ) [ RunTime:0.018770s ]
+SQL: SHOW COLUMNS FROM `lxy_news` [ RunTime:0.000790s ]
+SQL: SELECT * FROM `lxy_news` WHERE ( `news_category` = 1 ) ORDER BY news_time desc LIMIT 10   [ RunTime:0.001937s ]
+SQL: SELECT * FROM `lxy_news` WHERE ( `news_category` = 2 ) ORDER BY news_time desc LIMIT 10   [ RunTime:0.002265s ]
+SQL: SELECT * FROM `lxy_news` WHERE ( `news_category` = 3 ) ORDER BY news_time desc LIMIT 8   [ RunTime:0.001668s ]
+SQL: SELECT * FROM `lxy_news` WHERE ( `news_category` = 4 ) ORDER BY news_time desc LIMIT 8   [ RunTime:0.001638s ]
+SQL: SELECT * FROM `lxy_news` WHERE ( `news_category` = 5 ) ORDER BY news_time desc LIMIT 8   [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `lxy_pic` [ RunTime:0.000819s ]
+SQL: SELECT * FROM `lxy_pic` ORDER BY pic_id desc LIMIT 3   [ RunTime:0.000172s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Use of undefined constant pic_path - assumed 'pic_path' /webdocs/templete/fos/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 366 行.
+NOTIC: [8] Use of undefined constant pic_path - assumed 'pic_path' /webdocs/templete/fos/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 376 行.
+NOTIC: [8] Use of undefined constant pic_path - assumed 'pic_path' /webdocs/templete/fos/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 386 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /webdocs/templete/fos/Home/Runtime/Cache/7e4848229090366086cc7eeb3bfc0798.php 第 755 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.049819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049877s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000397s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-06-09T13:40:54+08:00 ] 123.125.71.81 /fos/index.php/Xsgz/xsfc
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000819s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `lxy_info` [ RunTime:0.000875s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [2048] Declaration of EmptyAction::_empty() should be compatible with that of CommonAction::_empty() /webdocs/templete/fos/Home/Lib/Action/EmptyAction.class.php 第 8 行.
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000294s ]
+NOTIC: [2] Missing argument 1 for EmptyAction::_empty() /webdocs/templete/fos/Home/Lib/Action/EmptyAction.class.php 第 4 行.
+NOTIC: [8] Undefined variable: name /webdocs/templete/fos/Home/Lib/Action/EmptyAction.class.php 第 5 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /webdocs/templete/fos/Home/Runtime/Cache/807aa3088c2fe3ef7ae2884d5c4f2a37.php 第 417 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013209s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000306s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-06-09T15:22:35+08:00 ] 123.125.71.80 /fos/index.php/Index/leader
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2048] Declaration of IndexAction::_empty() should be compatible with that of CommonAction::_empty() /webdocs/templete/fos/Home/Lib/Action/IndexAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lxy_info` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /webdocs/templete/fos/Home/Runtime/Cache/f744799464f08542e10b8cd00749d4e1.php 第 317 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026365s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000305s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-06-09T16:53:31+08:00 ] 220.181.108.147 /fos/index.php/Teacher/show/id/39
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of TeacherAction::show() should be compatible with that of Action::show() /webdocs/templete/fos/Home/Lib/Action/TeacherAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `lxy_info` [ RunTime:0.000883s ]
+SQL: SELECT * FROM `lxy_info` WHERE ( `info_name` = 'visit_count' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `lxy_person` [ RunTime:0.000764s ]
+SQL: SELECT * FROM `lxy_person` WHERE ( `person_id` = 39 ) LIMIT 1   [ RunTime:0.000251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000194s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] Undefined offset: 1 /webdocs/templete/fos/ThinkPHP/Lib/Driver/TagLib/TagLibCx.class.php 第 524 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /webdocs/templete/fos/Home/Runtime/Cache/43c13c15df466b23450e5666d939316d.php 第 553 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021746s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000341s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000412s ]
+

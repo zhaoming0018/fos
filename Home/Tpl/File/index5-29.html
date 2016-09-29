@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<style>
+.articleBody ul li{
+	line-height:25px;
+	border-bottom:1px #333 dashed;
+}
+.articleBody ul li a{
+	color:#000;
+}
+.newsTime{
+	display:inline-block;
+	width:100px;
+	margin-left:100px;
+	height:28px;
+	line-height:28px;
+	
+}
+ li{
+	position:relative;
+	display:block;
+	width:90%;
+ 	height:30px;
+ 	line-height:30px;
+}
+ li span{
+ 	position:absolute;
+	display:inline-block;
+	right:10px;
+}
+.along{
+	display:inline-block;
+	width:80%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+}
+</style>
+<title>下载中心</title>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+	
+		<div class="w2 pull-left">
+			<div class="navside">
+				<div class="navList mb20">
+					<div class="navTitle">下载中心</div><!-- 数据库读出数据 -->
+					<ul>
+						<li><a href="__APP__/File/index/id/1">党建工作</a></li>
+						<li><a href="__APP__/File/index/id/2">研究生教育</a></li>
+						<li><a href="__APP__/File/index/id/3">本科生教育</a></li>
+						<li><a href="__APP__/File/index/id/4">学生工作</a></li>
+						<li><a href="__APP__/File/index/id/5">其他</a></li>
+					</ul>
+				</div><!-- end class="navList" -->
+			</div><!-- end navside -->
+		</div><!-- end class="w2" -->
+		
+		<div class="w10 pull-left">
+			<div class="article">
+				<div class="articleTitle">
+					<div><{$titlename}></div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block">
+					<ul>
+						<volist name="list" id="vo">
+							<li><a href="__PUBLIC__/upload/file/<{$vo.file_path}>" class="along" title="<{$vo.file_name}>"><{$vo.file_name}></a><span class="newsTime"><{$vo.file_time|date='[Y-m-d]',###}></span></li>
+						</volist>
+					</ul>
+					<div class="jogger" style="margin-left:100px;"> 
+						<{$page}>
+						</div>
+				</div>
+			</div>
+		</div><!-- end w10 -->
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+</div>
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

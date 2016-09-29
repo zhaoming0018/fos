@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加用户</title>
+</head>
+<include file='Public:a_head'/>
+<style>
+.w2{
+	text-align:center;
+}
+</style>
+<body>
+<div class="top">
+			<include file='Public:a_top' />
+		</div><!-- end top -->
+		
+		<div class="container">
+			<div class="row mb20">
+				<div class="w2 pull-left mt20">
+					<include file='Public:a_navside'/>
+				</div>
+				<div class="w10 pull-left mt20">
+				
+						<eq name="_SESSION.user_priority" value="0">
+							<form action=	
+							<eq name="_GET.username" value="">
+								'__APP__/User/doAdd'
+								<else />'__APP__/User/doEdit/username/<{$_GET.user_name}>'
+							</eq> 
+							 method="post">
+							 	<table class="table table-bordered ml20">
+								<eq name="_GET.username" value="">
+									<tr>
+										<td class="w2">用 户 名：</td><td><input type="text" name="user_name" value='<{$username}>'/></td>
+									</tr>
+									<else/>
+									<tr>
+										<td class="w2">用 户 名：</td>
+										<td>
+										<input type="text" name="user_name" value='<{$username}>' readonly="readonly"/>
+										<!--<span><{$username}></span>-->
+										</td>
+									</tr>
+								</eq>
+
+								<eq name="_GET.username" value="">
+								<tr>
+									<td class="w2">密　　码：</td><td><input type="password" name="user_password" /></td>
+								</tr>
+								<tr>
+									<td class="w2">确认密码：</td><td><input type="password" name="confirm" /></td>
+								</tr>
+								<else/>
+									<tr>
+									<td class="w2">原 密 码：</td><td><input type="password" name="past_password" /></td>
+									</tr>
+									
+									<tr>
+									<td class="w2">新 密 码：</td><td><input type="password" name="user_password" /></td>
+									</tr>
+									
+									<tr>
+									<td class="w2">确认密码：</td><td><input type="password" name="confirm" /></td>
+									</tr>
+								</eq>
+									<tr>
+										<td class="w2">
+											验 证 码：
+										</td>
+										<td>
+										<input type="text" name="verify" />
+										<img src='__APP__/Public/verify' style="display:inline-block;width:60px;" onclick='this.src=this.src+"?"+Math.random()'/>
+										</td>
+									</tr>
+									<tr>
+										<td>
+										<input type="submit" class="btn bcm center-block tcw" value="修改" />
+										</td>
+										<td>
+										<input type="reset" class="btn bcm tcw" value="重置">
+										</td>
+									</tr>
+								</table>
+								</form>
+								
+								<else/>
+									<form action=	"__APP__/User/doChange" method="post">
+									<table class="table table-bordered ml20">
+										<tr>
+										<td class="w2">用户名：</td><td><input type="text" name = "user_name" value="<{$username}>" readonly="true"/></td>
+										</tr>
+										<tr>
+										<td class="w2">原密码：</td><td><input type="password" name="past_password" /></td>
+										</tr>
+										<tr>
+										<td class="w2">新密码：</td><td><input type="password" name="user_password" /></td>
+										</tr>
+										<tr>
+										<td class="w2">确认密码：</td><td><input type="password" name="confirm" /></td>
+										</tr>
+										<tr>
+										<td class="w2">验证码：</td><td><input type="text" name="verify" />
+											<img src='__APP__/Public/verify' style="display:inline-block;width:60px;" onclick='this.src=this.src+"?"+Math.random()'/>
+										</td>
+										</tr>
+										<tr>
+										<td class="w2">
+										<input type="submit" class="btn bcm center-block tcw" value="添加" />
+										</td>
+										<td>
+										<input type="reset" class="btn bcm tcw" value="重置">
+										</td>
+										</tr>
+									</table>	
+									</form>
+								</eq>
+				</div><!-- end class="w10" -->
+			</div><!-- class="row" -->
+		</div>
+</body>
+</html>

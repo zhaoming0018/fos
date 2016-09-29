@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'pic_id', 1 => 'pic_path', 2 => 'pic_name', 3 => 'pic_time', 4 => 'article_url', 5 => 'article', '_autoinc' => true, '_pk' => 'pic_id', '_type' => array ( 'pic_id' => 'int(4)', 'pic_path' => 'varchar(120)', 'pic_name' => 'varchar(50)', 'pic_time' => 'varchar(20)', 'article_url' => 'varchar(120)', 'article' => 'text', ), );?>

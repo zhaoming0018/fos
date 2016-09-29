@@ -1,0 +1,16 @@
+2016年9月26日 第一版本 
+
+20160927
+一、解决bootstrap需要1.9以上的jQuery。
+更改文件：fos\Public\Js\jQuery.js
+
+二、解决导航菜单排版问题
+更改文件：\fos\Home\Tpl\Public\u_top.html
+
+三、配置404
+更改文件：最后一行去掉注释
+\fos\Admin\Conf\config.php
+\fos\Home\Conf\config.php
+
+
+注意事项：更新需要提交缓存文件，页面更爱需要提交两个文件

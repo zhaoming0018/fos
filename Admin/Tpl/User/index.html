@@ -1,0 +1,21 @@
+<layout name="layout" />
+<h4 class="text-center">用户管理</h4>
+<table class="table table-bordered">
+	<volist name="user" id="vo">
+		<tr>
+			<td>
+			<{$vo.user_name}>
+			</td>
+			<eq name="vo.user_priority" value="0">
+				<td>总管理员</td>
+				<td><span style="color:#999;">不可删除</span></td>
+				<td><a href="__APP__/User/edit/username/<{$vo.user_name}>">更改</a></td>
+				<else/>
+				<td>普通管理员</td>
+				<td><a href="__APP__/User/delete/username/<{$vo.user_name}>" style="color:red;">删除</a></td>
+				<td><a href="__APP__/User/edit/username/<{$vo.user_name}>">更改</a></td>
+			</eq>
+	</tr>
+	</volist>
+</table>
+<div><a href="__APP__/User/add" class="btn bcm w3" style="color:#fff;">添加用户</a></div>

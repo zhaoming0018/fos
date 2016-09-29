@@ -1,0 +1,60 @@
+<div class="navside">
+	<ul>
+		<li><a href="__APP__/PicManage/index">图片轮播管理</a></li>
+	</ul>
+
+ 	<ul>
+ 	<eq name="_SESSION.user_priority" value="0">
+ 		<li><a href="__APP__/User/index">用户管理</a></li>
+ 	<else/>
+ 		<li><a href="__APP__/User/edit/username/<{$_SESSION.user_name}>">用户管理</a></li>
+ 	</eq>
+	</ul>
+	
+	 <ul>
+		<li><a href="__APP__/Institution/index">科研机构</a></li>
+	</ul>
+	<ul>
+		<li><a href="__APP__/Department/index">系科管理</a></li>
+	</ul> 
+	
+	<ul>
+		<li><a href="__APP__/Person/index">教师管理</a></li>
+		
+		<!-- <volist name="nav_position" id="vo">
+			<li><a href="__APP__/Person/index/position/<{$vo.position_id}>"><{$vo.position_name}></a></li>
+		</volist> -->
+	
+	</ul>
+	<ul>
+		<li><a href="__APP__/News/index">新闻管理</a></li>
+		
+		<!-- <volist name="nav_category" id="vo">
+			<li><a href="__APP__/News/index/category/<{$vo.category_id}>"><{$vo.category_name}></a></li>
+		</volist> -->
+	</ul>
+	
+	<ul>
+		<li><a href="__APP__/File/index">文件管理</a></li>
+		<!-- <volist name="nav_filecate" id="vo">
+			<li><a href="__APP__/File/index/filecate/<{$vo.filecate_id}>"><{$vo.filecate_name}></a></li>
+		</volist> -->
+	</ul>
+	
+	<ul>
+		<li><a href="__APP__/Develop/index/category/1">本科生培养</a></li>
+		<li><a href="__APP__/Develop/index/name/7">专业介绍</a></li>
+	</ul>
+	<ul>
+		<li><a href="__APP__/Develop/index/category/2">研究生培养</a></li>
+		<li><a href="__APP__/Develop/index/name/3">招生</a></li>
+		<li><a href="__APP__/Develop/index/name/4">培养</a></li>
+		<li><a href="__APP__/Develop/index/name/5">学位</a></li>
+		<li><a href="__APP__/Develop/index/name/6">研究生成果</a></li>
+
+	</ul>
+	<ul>
+		<li><a href="__APP__/Enedu/index">Teacher Management</a></li>
+		<li><a href="__APP__/Endept/index">Teacher Department</a></li>
+	</ul>
+</div>

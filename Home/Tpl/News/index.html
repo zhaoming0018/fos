@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<title><{$news.news_title}></title>
+<style type="text/css">
+/*	img{
+	width:400px;
+	height:auto;
+	display:block;
+	margin:5px auto;
+	text-align:center;
+	}*/
+.articleBody p{
+	text-indent:0em;
+}
+</style>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+		
+		<div class="w2 pull-left">
+			<div class="navside">
+				<div class="navList mb20">
+					<div class="navTitle">新闻 公告</div><!-- 数据库读出数据 -->
+					<ul>
+						<li><a href="__APP__/News/listn/id/1">本科生教育</a></li><!-- 数据库读出 -->
+						<li><a href="__APP__/News/listn/id/2">研究生教育</a></li>
+						<li><a href="__APP__/News/listn/id/3">新闻公告</a></li>
+						<li><a href="__APP__/News/listn/id/4">学术动态</a></li>
+						<li><a href="__APP__/News/listn/id/5">学生活动</a></li>
+					</ul>
+				</div>
+			</div><!-- end navside -->
+		</div><!--w2-->
+		
+		<div class="w10 pull-left">
+			<div class="article">
+				<div class="articleTitle">
+						<div><{$news.news_title}></div>
+						<span class="row">
+							<span class="col-md-8" style="font-size:14px;">发布时间：<{$news.news_time|date='Y-m-d',###}></span>
+							<span class="col-md-3" style="font-size:14px;">阅读次数：<{$news.news_count}></span>
+						</span>
+				</div><!--end class="articleTitle-->
+				<div class="w9 center-block" style="overflow:hidden"><!-- 新闻文章，用富文本编辑 -->
+					<{$news.news_content}>
+				</div><!-- end class="articleBody" -->
+				
+			</div><!-- class="article"-->
+		</div><!--w10-->
+		
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+	
+</div><!--article-->
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

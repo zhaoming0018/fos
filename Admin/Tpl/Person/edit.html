@@ -1,0 +1,58 @@
+<layout name="layout" />
+
+<form action=
+<if condition="$_GET.id eq null">'__APP__/Person/doAdd'
+<else />'__APP__/Person/doEdit/id/<{$_GET.id}>'
+</if>  method="post" enctype="multipart/form-data">
+		<table class="table table-bordered"
+	<tr><td>姓名：</td><td><input type="text" name="person_name" /></td></tr>
+	<tr><td>职位：</td><td>
+				
+				<?php
+					foreach($position as $key=>$value){
+						echo "<input type='checkbox' name='person_post[]' value='".$value['position_id']."'";
+						if($person['person_post']&(1<<($value['position_id']-1))){
+							echo "checked='checked'";
+						}
+						echo ">".$value['position_name'];
+						
+					}
+				?>
+			  </td></tr>
+			  
+	<tr><td>部门：</td><td><select name="person_department">
+				<volist name='department' id='vo'>
+					<option value='<{$vo.department_id}>'><{$vo.department_name}></option>
+				</volist>	
+			  </select></td></tr>		  
+	<tr><td>照片：</td><td><input type="file" name="person_photo" />
+	<if condition="$person.person_photo neq ''"><img src="__PUBLIC__/upload/file/person/<{$person.person_photo}>" alt="照片" width=50px; height=50px; /></if>
+	</td></tr>
+	<tr><td>简介：</td><td><textarea name="person_desc" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>研究生招生专业：</td><td><textarea name="person_yjszszy" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>研究方向：</td><td><textarea name="person_research_direction" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>联系电话：</td><td><input type="text" name="person_tel" /></td></tr>
+	<tr><td>电子邮件：</td><td><input type="text" name="person_email" /></td></tr>
+	<tr><td>联系地址：</td><td><input type="text" name="person_address" /></td></tr>
+	<tr><td>研究生课程：</td><td><textarea name="person_yjskc" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>本科生课程：</td><td><textarea name="person_bkskc" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>教学研究课题：</td><td><textarea name="person_jxyjkt" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>教材：</td><td><textarea name="person_book" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>教学研究论文：</td><td><textarea name="person_jxyjlw" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>学术研究课题：</td><td><textarea name="person_xsyjkt" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>专著：</td><td><textarea name="person_zz" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>学术论文：</td><td><textarea name="person_xslw" cols="80" rows="5"></textarea></td></tr>
+	<tr><td>表彰奖励：</td><td><textarea name="person_bzjl" cols="80" rows="5"></textarea></td></tr>
+	<tr><td colspan="2"><button id="submitForm" class="w3 btn bcm tcw">提交</button>
+	<input type="reset" value="重置" class="w3 btn bcm tcw" /></td></tr>
+	</table>
+</form>
+<script type="text/javascript">
+	$(document).ready(function(){
+		<volist name="person" id="vo">
+			 if($("[name='<{$key}>']").length!=0&&"<{$key}>"!="person_photo"){
+			 	$("[name='<{$key}>']")[0].value="<{$vo}>";
+			 }
+		</volist>
+	});
+</script>

@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+.top{
+	height:32px;
+}
+.top .container{
+	padding-top:6px;
+}
+.navside ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navside ul li{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	display:block;
+	border-bottom:1px solid #333;
+	border-raduis:4px;
+}
+.navside ul li:first-child{
+	width:100%;
+	background:#B31B1B;
+	color:#fff;
+}
+.navside ul li:first-child a{
+	color:#fff;
+}
+.navside ul li a{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:#333;
+}
+.navside ul li a:hover{
+	background:#700005;
+	color:#fff;
+}
+
+td a{
+	color:#333;
+}
+DIV.jogger { 
+PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 7px;
+ PADDING-TOP: 2px; FONT-FAMILY: "Lucida Sans Unicode",
+ "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif 
+} 
+DIV.jogger A { 
+PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+ MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em; 
+BACKGROUND-COLOR: #F3D55E; TEXT-DECORATION: none 
+} 
+DIV.jogger A:hover { 
+PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+ MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #B31B1B 
+} 
+DIV.jogger A:active { 
+PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+ MARGIN: 2px; COLOR: #fff; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #B31B1B 
+} 
+DIV.jogger SPAN.current { 
+PADDING-RIGHT: 0.64em; PADDING-LEFT: 0.64em; PADDING-BOTTOM: 0.43em;
+ MARGIN: 2px; COLOR: #700005; PADDING-TOP: 0.5em; BACKGROUND-COLOR: #B31B1B 
+} 
+DIV.jogger SPAN.disabled { 
+DISPLAY: none 
+} 

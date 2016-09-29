@@ -1,0 +1,12 @@
+<layout name="layout" />
+<table class="table table-bordered">
+	<volist name="list" id="vo">
+	<tr>
+		<td><{$vo.denews_title}>--<{$vo.denews_time|date='Y-m-d',###}></td>
+		<td><a href="__APP__/Develop/edit/id/<{$vo.denews_id}>">修改</a></td>
+		<td><a href="__APP__/Develop/delete/id/<{$vo.denews_id}>">删除</a></td>
+	</tr>
+	</volist>
+</table>
+<div class="jogger"><{$page}></div>
+<a href="__APP__/Develop/edit" class="btn bcm w3 tcw">新增</a>

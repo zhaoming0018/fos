@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+		<title>teacher</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-desktop.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-1200px.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/5grid/core-noscript.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enStyle.css" />
+		<link rel="stylesheet" href="__PUBLIC__/Css/enstyle-desktop.css" />
+		<script src="__PUBLIC__/Js/5grid/jquery.js"></script>
+		<script src="__PUBLIC__/Js/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+		<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<!-- Header -->
+		<div id="header-wrapper">
+		
+		<include file='Public:e_head'/>
+			
+		</div>
+		<!-- Page Wrapper -->
+		<div id="wrapper" class="5grid-layout">
+
+			<!-- Page Content -->
+			<div id="page" class="row">
+				
+				<!-- Content Area -->
+				<div id="content" class="12u">
+					
+					<table data-sort="sortDisabled" class="table table-bordered">
+				    <tbody>
+				        <tr class="firstRow">
+				            <td width="260" valign="top" rowspan="5" colspan="1"><img src="__PUBLIC__/upload/file/foreign/<{$list.foreign_photo}>" style="width:200px;height:auto;display:block;margin:10px auto;"/></td>
+				            <td valign="top" rowspan="1" colspan="2">name:<{$list.foreign_name}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="2">title:<{$list.foreign_title}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="2">add:<{$list.foreign_add}></td>
+				        </tr>
+				        <tr>
+				            <td width="260" valign="top">mobile:<{$list.foreign_mobile}></td>
+				            <td width="260" valign="top">email:<{$list.foreign_email}></td>
+				        </tr>
+				        <tr>
+				            <td width="260" valign="top">fax:<{$list.foreign_fax}></td>
+				            <td width="260" valign="top">homepage:<{$list.foreign_Homepage}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">research fileds orientations：<br /><{$list.foreign_RFO}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">education：<br /> <{$list.foreign_education}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" style="word-break: break-all;" rowspan="1" colspan="3">courses offered：<br /> <{$list.foreign_CO}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" style="word-break: break-all;" rowspan="1" colspan="3">publications：<br /> <{$list.foreign_publication}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">research projects in progress：<br /> <{$list.foreign_RPIP}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">honors & awards ：<br /><{$list.foreign_HA}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">professional affiliations：<br /> <{$list.foreign_PA}></td>
+				        </tr>
+				        <tr>
+				            <td valign="top" rowspan="1" colspan="3">major academic activities ：<br /><{$list.foreign_MAA}></td>
+				        </tr>
+				    </tbody>
+				</table>
+
+			<!-- 教师详情 -->		
+				</div>
+				
+				<!-- Content Area Ends Here -->
+
+			</div>
+			<!-- Page Content -->
+		</div>
+		<!-- Wrapper Ends Here -->
+
+
+	
+		<!-- Copyright -->
+		<div class="5grid-layout" id="copyright">
+			<include file='Public:e_foot'/>
+		</div>
+		
+</body>
+</html>

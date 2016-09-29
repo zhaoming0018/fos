@@ -1,0 +1,12 @@
+<layout name="layout" />
+<table class="table table-bordered">
+	<foreach name='list' item='vo'>	
+		<tr>					
+				<td><a href="__PUBLIC__/upload/file/<{$vo.file_path}>"><{$vo.filecate_name}>---<{$vo.file_name}>---<{$vo.file_time|date='Y-m-d',###}></a></td>
+				<td><a href="__APP__/File/delete/id/<{$vo.file_id}>" class="text-center" >删除</a></td>
+		</tr>
+		
+	</foreach>
+</table>
+<div class="jogger"><{$page}></div>
+<p class="mt20"><a href="__APP__/File/add" class="btn bcm w3 tcw">新增</a></p>

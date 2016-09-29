@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<style>
+	table tr td{
+	text-align:center;
+	}
+h4{
+	color:#B31B1B;
+	font-size:18px;
+	margin:20px 0;
+}
+h4 span{
+	display:inline-block;
+	margin-right:10px;
+}
+</style>
+<title>最受学生欢迎的十佳教师</title>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+		<div class="w2 pull-left">
+			<div class="navside">
+				<div class="navList">
+					<div class="navTitle"><a href="__APP__/Develop/index/category/本科生培养">本科生培养</a></div>
+					<ul>
+						<li><a href="__APP__/Develop/index/name/专业介绍">专业介绍</a></li><!-- 数据库读出 -->
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a href="__APP__/Develop/index/category/研究生培养">研究生培养</a></div>
+					<ul>
+						<li><a href="__APP__/Develop/index/name/招生">招生</a></li>
+						<li><a href="__APP__/Develop/index/name/培养">培养</a></li>
+						<li><a href="__APP__/Develop/index/name/学位">学位</a></li>
+						<li><a href="__APP__/Develop/index/name/研究生成果">研究生成果</a></li>
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a href="__APP__/Teacher/top10">最受学生欢迎的十佳教师</a></div>
+				</div>
+			</div><!-- end navside -->
+		</div><!--w2  -->
+		<div class="w10 pull-left">
+			<div class="article">
+				<eq name="_GET.title" value="">
+				<div class="articleTitle">
+					<div>最受学生欢迎的十佳教师</div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block">
+					<ul>
+					<volist name="top10" id="vo">
+						<li style="line-height:40px;"><a style="color:#000;" href="__APP__/Teacher/top10/title/<{$vo.news_title}>"><{$vo.news_title}></a></li>
+					</volist>
+					</ul>
+				</div><!-- articleBody -->
+				<else/>
+				<div class="articleTitle">
+					<div><{$info.news_title}></div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block">
+					<{$info.news_content}>
+				</div><!-- articleBody -->
+				</eq>
+			</div><!-- article -->
+		</div><!-- w10 -->
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+</div>
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+<layout name="layout" />
+<div>
+	<h3 class="text-center">图片轮播管理</h3>
+	<hr />
+	<p class="text-center" style="color:#999;">首页滚动图片只显示最新的三张图片，合适的图片大小为：600px*360px</p>
+</div>
+
+<table class="table table-bordered table-condensed">
+<foreach name='list' item='co'>
+	<tr>
+		<td class="w1 text-center"><{$co.pic_id}></td>
+	    <td class="w6 text-center"><{$co.pic_name}></td>
+		<td class="w3 text-center"><{$co.pic_time|date='Y-m-d',###}></td>
+		<td class="w1 text-center"><a href='__APP__/PicManage/delete/id/<{$co.pic_id}>'>删除</a></td>
+	</tr>
+</foreach>
+</table>
+<div class="jogger"><{$page}></div>
+<div><a href="__APP__/PicManage/add" class="btn bcm w3 tcw">新增</a></div>

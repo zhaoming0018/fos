@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<include file='Public:u_head'/>
+<style>
+.list li a{
+	color:#000;
+}
+.list li a:hover{
+	color:#B31B1B;'
+}
+h4{
+	color:#B31B1B;
+	font-size:18px;
+	margin:20px 0;
+}
+h4 span{
+	display:inline-block;
+	margin-right:10px;
+}
+</style>
+<title>人才培养</title>
+</head>
+<body>
+<div class="top">
+	<include file='Public:u_top'/>
+	<import type='css' file='Css.index' />
+</div><!-- end top -->
+
+<div class="container">
+	<div class="row mt20">
+	
+		<div class="w2 pull-left">
+			<div class="navside">
+				<div class="navList">
+					<div class="navTitle"><a class="tcw tcw" href="__APP__/Develop/index/category/1">本科生培养</a></div><!-- 数据库读出数据 -->
+					<ul>
+						<li><a href="__APP__/Develop/index/name/7" class="tcw">专业介绍</a></li><!-- 数据库读出 -->
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a class="tcw" href="__APP__/Develop/index/category/2">研究生培养</a></div>
+					<ul>
+						<li><a href="__APP__/Develop/index/name/3" class="tcw">招生</a></li>
+						<li><a href="__APP__/Develop/index/name/4" class="tcw">培养</a></li>
+						<li><a href="__APP__/Develop/index/name/5" class="tcw">学位</a></li>
+						<li><a href="__APP__/Develop/index/name/6" class="tcw">研究生成果</a></li>
+					</ul>
+				</div><!-- end class="navList" -->
+				<div class="navList">
+					<div class="navTitle"><a class="tcw" href="__APP__/Teacher/top">最受学生欢迎的十佳教师</a></div>
+				</div>
+			</div><!-- end navside -->
+		</div><!-- end class="w2" -->
+		
+		<div class="w10 pull-left">
+			<div class="article">
+				<div class="articleTitle">
+					<div><{$name}></div>
+					<hr/>
+				</div>
+				<div class="articleBody w9 center-block">
+					<div class="content3_text">
+						<ul class="list">
+						<?php
+						if(isset($_GET['category']))
+						{
+							foreach($list as $key=>$value){
+								echo "
+								<div>
+									<h4>$key</h4>
+								</div>
+								";
+								for($i=0;$i<count($value);$i++){
+									echo "<li><a href='__APP__/Develop/show/title/".$value[$i]['denews_id']."'/>".$value[$i]['denews_title']."</a></li>";
+								}
+							}
+						}else{
+						?>
+						<volist name="list" id="vo">
+							<li><a href="__APP__/Develop/show/title/<{$vo.denews_id}>"><{$vo.denews_title}></a></li>
+						</volist>
+						<?php
+						}
+						?>
+						</ul>
+					</div>
+				</div>
+			</div><!-- end class="article" -->
+		</div>
+		<div class="clearfix"></div>
+	</div><!-- end class="row" -->
+</div>
+
+<div class="bottom">
+	<include file='Public:u_bottom'/>
+</div><!-- end bottom -->
+</body>
+</html>

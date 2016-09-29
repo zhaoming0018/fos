@@ -1,0 +1,38 @@
+<layout name="layout" />
+<form action=
+<if condition="$_GET.id eq null">'__APP__/News/doAdd'
+<else />'__APP__/News/doEdit/id/<{$_GET.id}>'
+</if> 
+method='post'>
+	<div class="text-center" style="font-size:20px;">编辑新闻</div>
+	<hr />
+	<div class="text-center">题目：<input type='text' name='title' class="w5" <if condition="$_GET.id neq null"> value='<{$news['news_title']}>'</if>/></div>
+	<hr />
+	<div class="text-center">分类：<select name="category">
+			<volist name='category' id='vo'>
+				<option value='<{$vo.category_id}>'><{$vo.category_name}></option>
+			</volist>	
+		  </select>
+	</div>
+	<hr />
+	<div>
+		<div class="text-center">内容</div>
+		<div style="color:red;text-align:center;width:100%;">备注：上传图片宽度要小于等于400px,否则会发生文章排版错乱</div>
+		<hr />
+		<script id="editor" type="text/plain" style="width:624px;height:500px;margin:0 auto;"><if condition="$_GET.id neq null"><{$news['news_content']}></if></script>
+	</div>
+	<div class="w9 center-block mt20 mb20">
+		<input type='submit' name='提交' class="btn bcm tcw w3" value="提交" />
+		<input type="hidden" name="content" />	
+	</div>
+</form>
+<script type='text/javascript'>
+	var ue = UE.getEditor('editor');
+	var con= document.getElementByName('content');
+	con.innerHTML=ue.getContent;
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("[name='category']")[0].value="<{$news.news_category}>";
+	});
+</script>
