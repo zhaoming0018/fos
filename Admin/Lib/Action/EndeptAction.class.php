@@ -2,6 +2,7 @@
 /**
  * 机构管理类，用于处理与教育机构相关的事务
  */
+  header("Content-Type:text/html;charset=utf-8");
 class EndeptAction extends CommonAction {
     /**
      * 用于显示所有已添加的机构
@@ -47,10 +48,14 @@ class EndeptAction extends CommonAction {
             );
             $id=$department->add($data);
             if($id>0){
-                $this->success('添加成功',U('Endept/index'));
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Endept/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('添加失败');
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     }
     /**
@@ -79,10 +84,14 @@ class EndeptAction extends CommonAction {
             $sql='department_id='.$_GET['id'];
             $id=$department->where($sql)->save($data);
             if($id>0){
-                $this->success('更改成功',U('Endept/index'));
+                echo "<h1>编辑成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Endept/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>编辑失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     }
     /**
@@ -93,11 +102,15 @@ class EndeptAction extends CommonAction {
         $department=M('department');
         $sql='department_id='.$_GET['id'];
         $count=$department->where($sql)->delete();
-        if($count>0){
-            $this->success('删除成功',U('Endept/index'));
-        }
-        else{
-            $this->error('删除失败');
-        }
+       if($count>0){
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Endept/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
     }
 }

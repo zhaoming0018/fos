@@ -2,6 +2,7 @@
 	/**
 	 * 管理模块，用于管理后台其他模块（未完善）
 	 */
+ header("Content-Type:text/html;charset=utf-8");
 	class ManageAction extends CommonAction{
 		function index(){
 			$manage=M('Manage');
@@ -37,10 +38,15 @@
 			$data['manage_use']=0;
 			$id=$manage->where($where)->save($data);
 			if($id>0){
-				$this->success('删除成功',U('Manage/index'));
-			}else{
-				$this->error('删除失败');
-			}
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Manage/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 	}
 ?>

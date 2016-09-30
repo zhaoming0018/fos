@@ -1,5 +1,6 @@
 <?php
 // 人物后台管理类
+ header("Content-Type:text/html;charset=utf-8");
 class PersonAction extends CommonAction {
     /*
         方法名：index
@@ -92,10 +93,14 @@ class PersonAction extends CommonAction {
             // exit();
             $id=$person->add($content);
             if($id>0){
-                $this->success('更改成功',U('Person/index'));
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Person/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     }
     /*
@@ -174,10 +179,14 @@ class PersonAction extends CommonAction {
             $id=$person->where($where)->save($content);
             //dump($_POST);exit();
             if($id>0){
-                $this->success('更改成功',U('Person/index'));
+                echo "<h1>更改成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Person/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>更改失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
 
     }
@@ -190,10 +199,14 @@ class PersonAction extends CommonAction {
         $sql='person_id='.$_GET['id'];
         $count=$person->where($sql)->delete();
         if($count>0){
-            $this->success('删除成功',U('Person/index'));
-        }
-        else{
-            $this->error('删除失败');
-        }
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Person/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
     }
 }

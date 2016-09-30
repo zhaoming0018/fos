@@ -2,6 +2,7 @@
 /**
  * 登陆模块，用于处理登陆相关的事务
  */
+   header("Content-Type:text/html;charset=utf-8");
 class LoginAction extends Action {
   /**
    * 用于显示登陆页面
@@ -42,7 +43,7 @@ class LoginAction extends Action {
 			$_SESSION['user_name']=$_POST['user_name'];
 			$_SESSION['user_priority']=$res['user_priority'];
     		echo "<h1>登录成功，即将进入后台</h1>";
-        echo "<script>setTimeout(function(){location.href='/fos/admin.php/index/index';},2000);</script>";
+        echo "<script>setTimeout(function(){location.href='/fos/admin.php/index/index';},1000);</script>";
           exit();
     	}
     }

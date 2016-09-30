@@ -2,6 +2,7 @@
 	/**
 	 * 通用模块，后台模块继承
 	 */
+ header("Content-Type:text/html;charset=utf-8");
 	class CommonAction extends Action{
 		/**
 		 * 初始化方法，有以下功能：

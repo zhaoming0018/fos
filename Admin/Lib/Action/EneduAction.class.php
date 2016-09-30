@@ -1,4 +1,5 @@
 <?php 
+ header("Content-Type:text/html;charset=utf-8");
 	class EneduAction extends CommonAction{
 		public function index(){
 		$foreign=M('foreign');
@@ -47,10 +48,14 @@
             // exit();
             $id=$foreign->add($content);
             if($id>0){
-                $this->success('更改成功',U('Enedu/index'));
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Enedu/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
 		}
 		public function edit(){
@@ -112,10 +117,14 @@
             $id=$foreign->where($where)->save($content);
             //dump($_POST);exit();
             if($id>0){
-                $this->success('更改成功',U('Enedu/index'));
+                echo "<h1>更改成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Enedu/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>更改失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
 
 		}
@@ -124,11 +133,15 @@
         	$sql='foreign_id='.$_GET['id'];
         	$count=$foreign->where($sql)->delete();
         	if($count>0){
-        	    $this->success('删除成功',U('Enedu/index'));
-        	}
-        	else{
-            	$this->error('删除失败');
-       	 	}
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Enedu/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 	}
  ?>

@@ -2,6 +2,7 @@
 /**
  * 新闻模块，用于处理与新闻相关的事务
  */
+  header("Content-Type:text/html;charset=utf-8");
 class NewsAction extends CommonAction {
     /*
         方法名：index
@@ -96,12 +97,14 @@ class NewsAction extends CommonAction {
             $sql='news_id='.$_GET['id'];
             $id=$news->where($sql)->save($data);
             if($id>0){
-               echo "<h1>更改文章成功</h1>";
+                echo "<h1>更改成功</h1>";
                 echo "<script>setTimeout(function(){location.href='/fos/admin.php/News/index';},1000);</script>";
                 exit();
             }
             else{
-                $this->error('更改文章失败');
+                echo "<h1>更改失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     }
     /*
@@ -113,10 +116,14 @@ class NewsAction extends CommonAction {
         $sql='news_id='.$_GET['id'];
         $count=$news->where($sql)->delete();
         if($count>0){
-            $this->success('删除成功',U('News/index'));
-        }
-        else{
-            $this->error('删除失败');
-        }
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/News/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-
+ header("Content-Type:text/html;charset=utf-8");
 class PicManageAction extends CommonAction {
   public function index(){
 	  $pic=M('pic');
@@ -38,10 +38,15 @@ class PicManageAction extends CommonAction {
 			);
 			$id=$pic->add($data);	
 			if($id>0){
-				$this->success('文件添加成功',U('PicManage/index'));
-			}else{
-				$this->error('文件添加失败');
-			}
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/picManage/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 		
 		//删除图片
@@ -56,11 +61,15 @@ class PicManageAction extends CommonAction {
 			}
 			$count=$pic->where($where)->delete();
 			if($count>0){
-				$this->success('删除成功',U('PicManage/index'));
-			}
-			else{
-				$this->error('删除失败');
-			}
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/picManage/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 		
 }

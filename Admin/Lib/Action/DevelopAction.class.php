@@ -1,4 +1,5 @@
 <?php
+ header("Content-Type:text/html;charset=utf-8");
 	class DevelopAction extends CommonAction{
 		public function index(){
 			$denews=M('Denews');
@@ -75,10 +76,14 @@
             );
             $id=$denews->add($data);
             if($id>0){
-                $this->success('添加成功',U("Develop/index"));
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Develop/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('添加失败');
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
 		}
 		public function doEdit(){
@@ -92,22 +97,31 @@
             $where['denews_id']=$_GET['id'];
             $id=$denews->where($where)->save($data);
             if($id>0){
-                $this->success('更改成功',U('Develop/index'));
+                echo "<h1>更改成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Develop/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>更改失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     	}
+		//弃用代码
     	public function delete(){
     		$denews=M('Denews');
     		$where['denews_id']=$_GET['id'];
     		$data['denews_true']=0;
     		$id=$denews->where($where)->save($data);
     		if($id>0){
-                $this->success('更改成功',U('Develop/index'));
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Develop/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     	}
 	}

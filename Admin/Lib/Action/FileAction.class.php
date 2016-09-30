@@ -2,6 +2,7 @@
 	/**
 	 * 文件管理模块，用于处理上传文件的事务
 	 */
+ header("Content-Type:text/html;charset=utf-8");
 	class FileAction extends CommonAction{
 		/**
 		 * 用于显示所有分类下的文件
@@ -78,10 +79,15 @@
 			);
 			$id=$file->add($data);	
 			if($id>0){
-				$this->success('文件添加成功',U('File/index'));
-			}else{
-				$this->error('文件添加失败');
-			}
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/File/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 
 		/**
@@ -99,11 +105,15 @@
 			}
 			$count=$file->where($where)->delete();
 			if($count>0){
-				$this->success('删除成功',U('File/index'));
-			}
-			else{
-				$this->error('删除失败');
-			}
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Develop/index';},1000);</script>";
+                exit();
+            }
+            else{
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
+            }
 		}
 	}
 ?>

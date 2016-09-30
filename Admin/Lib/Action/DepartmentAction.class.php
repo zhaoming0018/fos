@@ -1,4 +1,5 @@
 <?php
+ header("Content-Type:text/html;charset=utf-8");
     class DepartmentAction extends CommonAction{
         public function index(){
             $department=M('Department');
@@ -29,11 +30,15 @@
             );
             $Department=M('Department');
             $id=$Department->add($data);
-            if($id>0){
-                $this->success('添加成功',U('Department/index'));
+			if($id>0){
+                echo "<h1>添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Department/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('添加失败');
+                echo "<h1>添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
         }
         /**
@@ -62,10 +67,14 @@
             $sql='department_id='.$_GET['id'];
             $id=$Department->where($sql)->save($data);
             if($id>0){
-                $this->success('更改成功',U('Department/index'));
+                echo "<h1>更改成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Department/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('更改失败');
+                echo "<h1>更改失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
         }
         /**
@@ -76,11 +85,15 @@
             $Department=M('department');
             $sql='department_id='.$_GET['id'];
             $count=$Department->where($sql)->delete();
-            if($count>0){
-                $this->success('删除成功',U('Department/index'));
+			if($count>0){
+                echo "<h1>删除成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/Department/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('删除失败');
+                echo "<h1>删除失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
         }
     }
