@@ -59,10 +59,14 @@ class NewsAction extends CommonAction {
             );
             $id=$news->add($data);
             if($id>0){
-                $this->success('文章添加成功',U('News/index'));
+                echo "<h1>文章添加成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/News/index';},1000);</script>";
+                exit();
             }
             else{
-                $this->error('文章添加失败');
+                echo "<h1>文章添加失败</h1>";
+                echo "<script>setTimeout(function(){history.go(-1);},1000);</script>";
+                exit();
             }
     }
     /*
@@ -92,7 +96,9 @@ class NewsAction extends CommonAction {
             $sql='news_id='.$_GET['id'];
             $id=$news->where($sql)->save($data);
             if($id>0){
-                $this->success('更改文章成功',U('News/index'));
+               echo "<h1>更改文章成功</h1>";
+                echo "<script>setTimeout(function(){location.href='/fos/admin.php/News/index';},1000);</script>";
+                exit();
             }
             else{
                 $this->error('更改文章失败');

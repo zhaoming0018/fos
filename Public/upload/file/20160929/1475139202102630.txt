@@ -1,0 +1,12 @@
+阿里大牛短信：
+App Key:23465349
+App Secret:e9993bcc5cf12c2a31bdb695a416d173
+
+微信支付：
+appid:wxc4067348a27be3b9
+appsecret:5382a9a3cd6e5954726f55f73a28457b
+服务器配置:
+URL(服务器地址) http://weizan.vastsum.net/api.php?id=4
+Token(令牌) jZvbr27b9731T0299n090NQ0nbV1q01B
+EncodingAESKey(消息加解密密钥) SU2u0U0q1NhMUu7Qeu5T57ju1h511Q6TD0qMZNMfu62
+消息加解密方式 明文模式

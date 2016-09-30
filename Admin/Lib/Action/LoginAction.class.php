@@ -20,7 +20,9 @@ class LoginAction extends Action {
   	$user=D("Users");
 		//验证
 		if($_SESSION['verify']!=md5($_POST['verify'])){
-			$this->error('验证码错误');
+			echo "<h1>验证码错误，两秒后跳转</h1>";
+      echo "<script>setTimeout(function(){location.href='/fos/admin.php/login/index';},2000);</script>";
+      exit();
 		}
 		//查找
     
@@ -31,13 +33,17 @@ class LoginAction extends Action {
     	$where['user_password']=md5($_POST['user_password']);
     	$res=$user->where($where)->find();
     	if($res==NULL){
-    		$this->error("登录失败!",U('Login/index'));
+        echo "<h1>登录失败，账号或密码错误</h1>";
+    		echo "<script>setTimeout(function(){location.href='/fos/admin.php/login/index';},2000);</script>";
+          exit();
     	}
     	else{
     		//登录，写入session
 			$_SESSION['user_name']=$_POST['user_name'];
 			$_SESSION['user_priority']=$res['user_priority'];
-    		$this->success("登录成功",U('Admin/Index/index'));
+    		echo "<h1>登录成功，即将进入后台</h1>";
+        echo "<script>setTimeout(function(){location.href='/fos/admin.php/index/index';},2000);</script>";
+          exit();
     	}
     }
   }
